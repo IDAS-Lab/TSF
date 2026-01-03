@@ -26,7 +26,7 @@
   <img src="./taxonomy.png" alt="taxonomy">
 </div>
 
-📍 We provide a systematic review of deep learning-based TSF methods, summarizing recent advancements.  Specifically, we propose **a novel taxonomy based on core modeling paradigms**, which categorizes existing methods into three paradigms: **discriminative, generative, and plug-and-play**. Additionally, we summarize commonly used datasets and evaluation metrics, and discuss current challenges and future research directions in this field.
+📍 We propose **a novel hierarchical taxonomy centered on model structural dependency**. We systematically review recent advancements in TSF and categorize existing methods into two primary categories: **model-specific and model-agnostic**. Building on this taxonomy, we further divide the model-specific framework into **discriminative and generative paradigms**, and provide a fine-grained classification of models. For instance, the model-agnostic framework can be subdivided into data preprocessing, post-processing, feature extraction, and training strategies, thereby more clearly revealing the optimization directions in current research. Moreover, we conduct an in-depth comparative analysis of different models, summarizing their applicability and performance trade-offs across various forecasting scenarios. Finally, we outline common benchmark datasets and evaluation metrics, and thoroughly explore the key challenges and future research directions in TSF.
 
 🚀 For a deeper dive, please check out our survey paper: **A Survey of Deep Learning for Time Series Forecasting: Taxonomy, Analysis and Future Directions** 
 
