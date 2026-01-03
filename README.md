@@ -34,7 +34,7 @@
 - 🌟[A Survey of Deep Learning for Time Series Forecasting](#a-survey-of-deep-learning-for-time-series-forecasting)
   - 📑[Table of Contents](#-table-of-contents)
   - 📖[Taxonomy](#-taxonomy)
-    - 📚[Model-specific Framework](#-model--specific-framework)
+    - 📚[Model-specific Framework](#-model-specific-framework)
       - 🌟[MLP-based Methods](#mlp-based-methods)
       - 🌟[CNN-based Methods](#cnn-based-methods)
         - [CNN](#cnn)
@@ -60,7 +60,7 @@
     - 📚[Plug-and-play Paradigm](#-plug-and-play-paradigm)
 
 ##  📖 Taxonomy
-### 📚 Discriminative Paradigm
+### 📚 Model-specific Framework
 
 #### 🌟MLP-based Methods
 - N-BEATS: Neural basis expansion analysis for interpretable time series forecasting, ICLR 2020. [[paper](https://arxiv.org/abs/1905.10437)] [[code](https://github.com/philipperemy/n-beats)]
