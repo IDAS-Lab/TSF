@@ -53,12 +53,16 @@
           - [GNN + RNN](#gnn--rnn)
           - [GNN + Transormer](#gnn--transformer)
       - 📚[Generative Paradigm](#-generative-paradigm)
-        - [GAN](#gan)
-        - [VAE](#vae)
-        - [Flow-based models](#flow-based-models)
-        - [Diffusion models](#diffusion-models)
-        - [Generative LLMs](#generative-llms)
+        - 🌟[GAN](#gan)
+        - 🌟[VAE](#vae)
+        - 🌟[Flow-based models](#flow-based-models)
+        - 🌟[Diffusion models](#diffusion-models)
+        - 🌟[Generative LLMs](#generative-llms)
     - 📚[Model-agnostic Framework](#-model-agnostic-framework)
+      - Data preprocessing
+      - Post-processing
+      - Feature enhancement
+      - Training strategies 
 
 ##  📖 Taxonomy
 ### 📚 Model-specific Framework
