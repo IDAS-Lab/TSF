@@ -34,7 +34,7 @@
 - 🌟[A Survey of Deep Learning for Time Series Forecasting](#a-survey-of-deep-learning-for-time-series-forecasting)
   - 📑[Table of Contents](#-table-of-contents)
   - 📖[Taxonomy](#-taxonomy)
-    - 📚[Model-specific Framework](#-model-specific-framework)
+    - 📜[Model-specific Framework](#-model-specific-framework)
       - 📚[Discriminative Paradigm](#-discriminative-paradigm)
         - 🌟[MLP-based Methods](#mlp-based-methods)
         - 🌟[CNN-based Methods](#cnn-based-methods)
@@ -58,14 +58,14 @@
         - 🌟[Flow-based models](#flow-based-models)
         - 🌟[Diffusion models](#diffusion-models)
         - 🌟[Generative LLMs](#generative-llms)
-    - 📚[Model-agnostic Framework](#-model-agnostic-framework)
+    - 📜[Model-agnostic Framework](#-model-agnostic-framework)
       - Data preprocessing
       - Post-processing
       - Feature enhancement
       - Training strategies 
 
 ##  📖 Taxonomy
-### 📚 Model-specific Framework
+### 📜 Model-specific Framework
 #### 📚 Generative Paradigm
 ##### 🌟MLP-based Methods
 - N-BEATS: Neural basis expansion analysis for interpretable time series forecasting, ICLR 2020. [[paper](https://arxiv.org/abs/1905.10437)] [[code](https://github.com/philipperemy/n-beats)]
@@ -209,7 +209,7 @@
 - Large language models are zero-shot time series forecasters, NIPS 2024. [[paper](https://arxiv.org/abs/2310.07820)] [[code](https://github.com/ngruver/llmtime)]
 
 
-### 📚 Model-agnostic Framework
+### 📜 Model-agnostic Framework
 - Deep adaptive input normalization for time series forecasting, TNNLS 2019. [[paper](https://arxiv.org/abs/1902.07892)] [[code](https://github.com/passalis/dain)]
 - Reversible instance normalization for accurate time-series forecasting against distribution shift, ICLR 2021. [[paper](https://openreview.net/forum?id=cGDAkQo1C0p)] [[code](https://github.com/ts-kim/RevIN)]
 - GAS-Norm: Score-Driven Adaptive Normalization for Non-Stationary Time Series Forecasting in Deep Learning, CIKM 2024. [[paper](https://arxiv.org/abs/2410.03935)] [[code](https://github.com/edo-urettini/GAS_Norm)]
