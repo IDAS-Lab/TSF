@@ -35,34 +35,35 @@
   - 📑[Table of Contents](#-table-of-contents)
   - 📖[Taxonomy](#-taxonomy)
     - 📚[Model-specific Framework](#-model-specific-framework)
-      - 🌟[MLP-based Methods](#mlp-based-methods)
-      - 🌟[CNN-based Methods](#cnn-based-methods)
-        - [CNN](#cnn)
-        - [TCN](#tcn)
-      - 🌟[RNN-based Methods](#rnn-based-methods)
-        - [RNN](#rnn)
-        - [GRU / LSTM](#gru--lstm)
-      - 🌟[GNN-based Methods](#gnn-based-methods)
-      - 🌟[Transformer-based Methods](#transformer-based-methods)
-        - [Transformer](#transformer)
-        - [Discriminative LLM](#discriminative-llm)
-      - 🌟[Compound Model-based Methods](#compound-model-based-methods)
-        - [CNN + RNN](#cnn--rnn)
-        - [CNN + Transormer](#cnn--transformer)
-        - [GNN + RNN](#gnn--rnn)
-        - [GNN + Transormer](#gnn--transformer)
-    - 📚[Generative Paradigm](#-generative-paradigm)
-      - [GAN](#gan)
-      - [VAE](#vae)
-      - [Flow-based models](#flow-based-models)
-      - [Diffusion models](#diffusion-models)
-      - [Generative LLMs](#generative-llms)
+      - 📚[Discriminative Paradigm](#-discriminative-paradigm)
+        - 🌟[MLP-based Methods](#mlp-based-methods)
+        - 🌟[CNN-based Methods](#cnn-based-methods)
+          - [CNN](#cnn)
+          - [TCN](#tcn)
+        - 🌟[RNN-based Methods](#rnn-based-methods)
+          - [RNN](#rnn)
+          - [GRU / LSTM](#gru--lstm)
+        - 🌟[GNN-based Methods](#gnn-based-methods)
+        - 🌟[Transformer-based Methods](#transformer-based-methods)
+          - [Transformer](#transformer)
+          - [Discriminative LLM](#discriminative-llm)
+        - 🌟[Compound Model-based Methods](#compound-model-based-methods)
+          - [CNN + RNN](#cnn--rnn)
+          - [CNN + Transormer](#cnn--transformer)
+          - [GNN + RNN](#gnn--rnn)
+          - [GNN + Transormer](#gnn--transformer)
+      - 📚[Generative Paradigm](#-generative-paradigm)
+        - [GAN](#gan)
+        - [VAE](#vae)
+        - [Flow-based models](#flow-based-models)
+        - [Diffusion models](#diffusion-models)
+        - [Generative LLMs](#generative-llms)
     - 📚[Model-agnostic Framework](#-model-agnostic-framework)
 
 ##  📖 Taxonomy
 ### 📚 Model-specific Framework
-
-#### 🌟MLP-based Methods
+#### 📚 Generative Paradigm
+##### 🌟MLP-based Methods
 - N-BEATS: Neural basis expansion analysis for interpretable time series forecasting, ICLR 2020. [[paper](https://arxiv.org/abs/1905.10437)] [[code](https://github.com/philipperemy/n-beats)]
 - Neural basis expansion analysis with exogenous variables: Forecasting electricity prices with NBEATSx, IJoF 2022. [[paper](https://www.sciencedirect.com/science/article/pii/S0169207022000413)] [[code](https://github.com/cchallu/nbeatsx)]
 - Nhits: Neural hierarchical interpolation for time series forecasting, AAAI 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25854)] [[code](https://github.com/cchallu/n-hits)]
@@ -73,32 +74,32 @@
 - Hdmixer: Hierarchical dependency with extendable patch for multivariate time series forecasting, AAAI 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29155)] [[code](https://github.com/hqh0728/HDMixer)]
 - Wpmixer: Efficient multi-resolution mixing for long-term time series forecasting, AAAI 2025. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/34156)] [[code](https://github.com/Secure-and-Intelligent-Systems-Lab/WPMixer)]
 
-#### 🌟CNN-based Methods
-##### CNN
+##### 🌟CNN-based Methods
+###### CNN
 - TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis, ICLR 2023. [[paper](https://arxiv.org/abs/2210.02186)] [[code](https://github.com/thuml/TimesNet)]
 - Modeling temporal patterns with dilated convolutions for time-series forecasting, TKDD 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3453724)]
 - Convtimenet: A deep hierarchical fully convolutional model for multivariate time series analysis, WWW 2025. [[paper](https://arxiv.org/abs/2403.01493)] [[code](https://github.com/Mingyue-Cheng/ConvTimeNet)]
 - TVNet: A Novel Time Series Analysis Method Based on Dynamic Convolution and 3D-Variation, ICLR 2025. [[paper](https://openreview.net/forum?id=MZDdTzN6Cy)]
-##### TCN
+###### TCN
 - Moderntcn: A modern pure convolution structure for general time series analysis, ICLR 2024. [[paper](https://openreview.net/forum?id=vpJMJerXHU)] [[code](https://github.com/luodhhh/ModernTCN)]
 - Think globally, act locally: A deep neural network approach to high-dimensional time series forecasting, NIPS 2019. [[paper](https://arxiv.org/abs/1905.03806)] [[code](https://github.com/rajatsen91/deepglo)]
 - Micn: Multi-scale local and global context modeling for long-term series forecasting, ICLR 2023. [[paper](https://openreview.net/forum?id=zt53IDUR1U)] [[code](https://github.com/wanghq21/MICN)]
 - Scinet: Time series modeling and forecasting with sample convolution and interaction, NIPS 2022. [[paper](https://arxiv.org/abs/2106.09305)] [[code](https://github.com/cure-lab/SCINet)]
 - Cross-LKTCN: Modern convolution utilizing cross-variable dependency for multivariate time series forecasting dependency for multivariate time series forecasting, Arxiv 2023. [[paper](https://arxiv.org/abs/2306.02326)]
 
-#### 🌟RNN-based Methods
-##### RNN
+##### 🌟RNN-based Methods
+###### RNN
 - A multi-horizon quantile recurrent forecaster, NIPSW 2017. [[paper](https://arxiv.org/abs/1711.11053)] [[code](https://github.com/tianchen101/MQRNN)]
 - DeepAR: Probabilistic forecasting with autoregressive recurrent networks, IJoF 2019. [[paper](https://arxiv.org/abs/1704.04110)] [[code](https://github.com/brunoklein99/deepar)]
 - Modeling irregular time series with continuous recurrent units, ICML 2022. [[paper](https://arxiv.org/abs/2111.11344)] [[code](https://github.com/boschresearch/continuous-recurrent-units)]
 - Segrnn: Segment recurrent neural network for long-term time series forecasting, Arxiv 2023. [[paper](https://arxiv.org/abs/2308.11200)] [[code](https://github.com/lss-1138/SegRNN)]
-##### GRU / LSTM
+###### GRU / LSTM
 - Addressing Prediction Delays in Time Series Forecasting: A Continuous GRU Approach with Derivative Regularization, KDD 2024. [[paper](https://arxiv.org/abs/2407.01622)] [[code](https://github.com/sheoyon-jhin/CONTIME)]
 - A hybrid method of exponential smoothing and recurrent neural networks for time series forecasting, IJoF 2020. [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0169207019301153)]
 - xlstmtime: Long-term time series forecasting with xlstm, AI 2024. [[paper](https://www.mdpi.com/2673-2688/5/3/71)] [[code](https://github.com/muslehal/xLSTMTime)]
 - Unlocking the power of lstm for long term time series forecasting, AAAI 2025. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/33303)] [[code](https://github.com/Eleanorkong/P-sLSTM)]
 
-#### 🌟GNN-based Methods
+##### 🌟GNN-based Methods
 - Spectral temporal graph neural network for multivariate time-series forecasting, NIPS 2020. [[paper](https://arxiv.org/abs/2103.07719)] [[code](https://github.com/microsoft/StemGNN)]
 - Multivariate time-series forecasting with temporal polynomial graph neural networks, NIPS 2022. [[paper](https://openreview.net/forum?id=pMumil2EJh)] [[code](https://github.com/zyplanet/TPGNN)]
 - FourierGNN: Rethinking multivariate time series forecasting from a pure graph perspective, NIPS 2023. [[paper](https://arxiv.org/abs/2311.06190)] [[code](https://github.com/aikunyi/FourierGNN)]
@@ -109,8 +110,8 @@
 - Msgnet: Learning multi-scale inter-series correlations for multivariate time series forecasting, AAAI 2024. [[paper](https://arxiv.org/abs/2401.00423)] [[code](https://github.com/YoZhibo/MSGNet)]
 - TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting, ICML 2025. [[paper](https://arxiv.org/abs/2501.13041)] [[code](https://github.com/troubadour000/timefilter)]
 
-#### 🌟Transformer-based Methods
-##### Transformer
+##### 🌟Transformer-based Methods
+###### Transformer
 - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers, ICLR 2023. [[paper](https://arxiv.org/abs/2211.14730)] [[code](https://github.com/yuqinie98/patchtst)]
 - Non-stationary Transformers: Rethinking the Stationarity in Time Series Forecasting, NIPS 2022. [[paper](https://arxiv.org/abs/2205.14415)] [[code](https://github.com/thuml/Nonstationary_Transformers)]
 - Scalable Transformer for High Dimensional Multivariate Time Series Forecasting, CIKM 2024. [[paper](https://arxiv.org/abs/2408.04245)] [[code](https://github.com/xinzzzhou/ScalableTransformer4HighDimensionMTSF)]
@@ -128,7 +129,7 @@
 - Peri-midFormer: Periodic Pyramid Transformer for Time Series Analysis, NIPS 2024. [[paper](https://arxiv.org/abs/2411.04554)] [[code](https://github.com/WuQiangXDU/Peri-midFormer)]
 - Learning to rotate: Quaternion transformer for complicated periodical time series forecasting, KDD 2022. [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539234)] [[code](https://github.com/DAMO-DI-ML/KDD2022-Quatformer)]
 - Etsformer: Exponential smoothing transformers for time-series forecasting, Arxiv 2022. [[paper](https://arxiv.org/abs/2202.01381)] [[code](https://github.com/salesforce/etsformer)]
-##### Discriminative LLM
+###### Discriminative LLM
 - Lag-llama: Towards foundation models for time series forecasting, R0-FoMo 2023. [[paper](https://openreview.net/forum?id=jYluzCLFDM)] [[code](https://github.com/time-series-foundation-models/lag-llama)]
 - Frozen language model helps ecg zero-shot learning, MIDL 2024. [[paper](https://proceedings.mlr.press/v227/li24a.html)]
 - Apollo-Forecast: Overcoming Aliasing and Inference Speed Challenges in Language Models for Time Series Forecasting, AAAI 2025. [[paper](https://arxiv.org/abs/2412.12226)]
@@ -144,45 +145,45 @@
 - Llm4ts: Two-stage fine-tuning for time-series forecasting with pre-trained llms, ACM TIST 2025. [[paper](https://arxiv.org/abs/2308.08469)] [[code](https://github.com/blacksnail789521/LLM4TS)]
 - Logo-LLM: Local and Global Modeling with Large Language Models for Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2505.11017)]
 
-#### 🌟Compound Model-based Methods
-##### CNN + RNN
+##### 🌟Compound Model-based Methods
+###### CNN + RNN
 - Modeling long-and short-term temporal patterns with deep neural networks, SIGIR 2018. [[paper](https://arxiv.org/abs/1703.07015)] [[code](https://github.com/laiguokun/LSTNet)]
 - Towards better forecasting by fusing near and distant future visions, AAAI 2020. [[paper](https://arxiv.org/abs/1912.05122)] [[code](https://github.com/smallGum/MLCNN-Multivariate-Time-Series)]
 - Deep air quality forecasting using hybrid deep learning framework, TKDE 2019. [[paper](https://ieeexplore.ieee.org/document/8907358)]
 - Hybrid deep learning CNN-LSTM model for forecasting direct normal irradiance: a study on solar potential in Ghardaia, Algeria, Scientific Reports 2025. [[paper](https://www.nature.com/articles/s41598-025-94239-z)]
 - Long short term memory--convolutional neural network based deep hybrid approach for solar irradiance forecasting, Applied Energy 2021. [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0306261921005158)]
-##### CNN + Transformer
+###### CNN + Transformer
 - LLM-PS: Empowering Large Language Models for Time Series Forecasting with Temporal Patterns and Semantics, Arxiv 2025. [[paper](https://arxiv.org/abs/2503.09656)]
 - Periodicity decoupling framework for long-term series forecasting, ICLR 2024. [[paper](https://openreview.net/forum?id=dp27P5HBBt)] [[code](https://github.com/Hank0626/PDF)]
 - Bridging Short-and Long-Term Dependencies: A CNN-Transformer Hybrid for Financial Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2504.19309)]
-##### GNN + RNN
+###### GNN + RNN
 - A hybrid model for spatiotemporal forecasting of PM2. 5 based on graph convolutional neural network and long short-term memory, SCI TOTAL ENVIRON 2019. [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0048969719303821)]
 - T-GCN: A temporal graph convolutional network for traffic prediction, T-ITS 2019. [[paper](https://ieeexplore.ieee.org/document/8809901)] [[code](https://github.com/lehaifeng/T-GCN)]
 - Adaptive graph convolutional recurrent network for traffic forecasting, NIPS 2020. [[paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/ce1aad92b939420fc17005e5461e6f48-Paper.pdf)] [[code](https://github.com/LeiBAI/AGCRN)]
-##### GNN + Transformer
+###### GNN + Transformer
 - Spatial-temporal transformer networks for traffic flow forecasting, Arxiv 2020. [[paper](https://arxiv.org/pdf/2001.02908)]
 - Forecaster: A graph transformer for forecasting spatial and time-dependent data, ECAI 2020. [[paper](https://ebooks.iospress.nl/volumearticle/55026)]
 - Navigating Spatio-Temporal Heterogeneity: A Graph Transformer Approach for Traffic Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2408.10822)] [[code](https://github.com/jasonz5/STGormer)]
 - STGformer: Efficient Spatiotemporal Graph Transformer for Traffic Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2410.00385)] [[code](https://github.com/Dreamzz5/STGformer)]
 
 
-### 📚 Generative Paradigm
-#### GAN
+#### 📚 Generative Paradigm
+##### GAN
 - Stock market prediction based on generative adversarial network, Procedia Comput. Sci 2019. [[paper](https://www.sciencedirect.com/science/article/pii/S1877050919302789)]
 - Time-series Generative Adversarial Networks, NIPS 2019. [[paper](https://proceedings.neurips.cc/paper/2019/hash/c9efe5f26cd17ba6216bbe2a7d26d490-Abstract.html?ref=https://githubhelp.com)]
 - If you like it, gan it—probabilistic multivariate times series forecast with gan, Engineering proceedings 2021. [[paper](https://www.mdpi.com/2673-4591/5/1/40)]
 - T-cgan: Conditional generative adversarial network for data augmentation in noisy time series with irregular sampling, Arxiv 2018. [[paper](https://arxiv.org/abs/1811.08295)]
 - GT-GAN: General purpose time series synthesis with generative adversarial networks, NIPS 2022. [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f03ce573aa8bce26f77b76f1cb9ee979-Abstract-Conference.html)]
-#### VAE
+##### VAE
 - Hybrid variational autoencoder for time series forecasting, KBS 2023. [[paper](https://www.sciencedirect.com/science/article/pii/S0950705123008298)]
 - Distributional drift adaptation with temporal conditional variational autoencoder for multivariate time series forecasting, TNNLS 2024. [[paper](https://ieeexplore.ieee.org/document/10509830)]
 - Time Series Forecasting Based on Structured Decomposition and Variational Autoencoder, IJCNN 2024. [[paper](https://ieeexplore.ieee.org/document/10650587)]
 - K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting, ICML 2025. [[paper](https://arxiv.org/abs/2505.23017)] [[code](https://github.com/decisionintelligence/k2vae)]
-#### Flow-based models
+##### Flow-based models
 - Multi-scale attention flow for probabilistic time series forecasting, TKDE 2023. [[paper](https://arxiv.org/abs/2205.07493)]
 - End-to-end modeling of hierarchical time series using autoregressive transformer and conditional normalizing flow-based reconciliation, ICDMW 2022. [[paper](https://www.computer.org/csdl/proceedings-article/icdmw/2022/460900b087/1KBr6gWVaVO)]
 - Multivariate probabilistic time series forecasting via conditioned normalizing flows, ICLR 2021. [[paper](https://openreview.net/forum?id=WiGQBFuVRv)]
-#### Diffusion models
+##### Diffusion models
 - Autoregressive denoising diffusion models for multivariate probabilistic time series forecasting, ICML 2021. [[paper](https://arxiv.org/abs/2101.12072)] [[code](https://github.com/zalandoresearch/pytorch-ts)]
 - Non-autoregressive conditional diffusion models for time series prediction, ICML 2023. [[paper](https://arxiv.org/abs/2306.05043)]
 - Retrieval-Augmented Diffusion Models for Time Series Forecasting, NIPS 2024. [[paper](https://arxiv.org/abs/2410.18712)] [[code](https://arxiv.org/abs/2410.18712)]
@@ -194,7 +195,7 @@
 - ANT: Adaptive Noise Schedule for Time Series Diffusion Models, NIPS 2024. [[paper](https://arxiv.org/abs/2410.14488)] [[code](https://github.com/seunghan96/ANT)]
 - Dynamical diffusion: Learning temporal dynamics with diffusion models, ICLR 2025. [[paper](https://arxiv.org/abs/2503.00951)] [[code](https://github.com/thuml/dynamical-diffusion)]
 - Non-stationary Diffusion For Probabilistic Time Series Forecasting, ICML 2025. [[paper](https://arxiv.org/abs/2505.04278)] [[code](https://github.com/wwy155/NsDiff)] 
-#### Generative LLMs
+##### Generative LLMs
 - Promptcast: A new prompt-based learning paradigm for time series forecasting,  TKDE 2023. [[paper](https://arxiv.org/abs/2210.08964)] [[code](https://github.com/HaoUNSW/PISA)]
 - Instruct-fingpt: Financial sentiment analysis by instruction tuning of general-purpose large language models, Arxiv 2023. [[paper](https://arxiv.org/abs/2306.12659)]
 - Temporal Data Meets LLM--Explainable Financial Time Series Forecasting, Arxiv 2023. [[paper](https://arxiv.org/abs/2306.11025)]
