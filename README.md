@@ -1,4 +1,4 @@
-# A Survey of Deep Learning for Time Series Forecasting
+# A Survey of Deep Learning for Time Series Forecasting: Taxonomy, Analysis and Future Directions
 
 <div style="text-align: center;">
   <img src="./timeline.png" alt="image info">
