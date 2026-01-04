@@ -133,6 +133,13 @@
 - Peri-midFormer: Periodic Pyramid Transformer for Time Series Analysis, NIPS 2024. [[paper](https://arxiv.org/abs/2411.04554)] [[code](https://github.com/WuQiangXDU/Peri-midFormer)]
 - Learning to rotate: Quaternion transformer for complicated periodical time series forecasting, KDD 2022. [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539234)] [[code](https://github.com/DAMO-DI-ML/KDD2022-Quatformer)]
 - Etsformer: Exponential smoothing transformers for time-series forecasting, Arxiv 2022. [[paper](https://arxiv.org/abs/2202.01381)] [[code](https://github.com/salesforce/etsformer)]
+- Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting, ICLR 2023. [[paper](https://openreview.net/forum?id=vSVLM2j9eie)][[code](https://github.com/Thinklab-SJTU/Crossformer)]
+- Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting, IJoF 2021. [[paper](https://arxiv.org/abs/1912.09363)][[code](https://github.com/google-research/google-research/tree/master/tft)]
+- ,. [[paper]()][[code]()]
+- ,. [[paper]()][[code]()]
+- ,. [[paper]()][[code]()]
+- ,. [[paper]()][[code]()]
+- ,. [[paper]()][[code]()]
 ###### Discriminative LLM
 - Lag-llama: Towards foundation models for time series forecasting, R0-FoMo 2023. [[paper](https://openreview.net/forum?id=jYluzCLFDM)] [[code](https://github.com/time-series-foundation-models/lag-llama)]
 - Frozen language model helps ecg zero-shot learning, MIDL 2024. [[paper](https://proceedings.mlr.press/v227/li24a.html)]
