@@ -59,10 +59,10 @@
         - 🌟[Diffusion models](#diffusion-models)
         - 🌟[Generative LLMs](#generative-llms)
     - 📜[Model-agnostic Framework](#-model-agnostic-framework)
-      - Data preprocessing
-      - Post-processing
-      - Feature enhancement
-      - Training strategies 
+      - [Data preprocessing](#data-preprocessing)
+      - [Post-processing](#post-processing)
+      - [Feature enhancement](#feature-enhancement)
+      - [Training strategies](#training-strategis) 
 
 ##  📖 Taxonomy
 ### 📜 Model-specific Framework
