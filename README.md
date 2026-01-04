@@ -220,17 +220,31 @@
 
 ### 📜 Model-agnostic Framework
 #### Data preprocessing
-
-#### Post-processing
-    
-#### Feature enhancement
-
-#### Training strategies
-
+- Learning Augmentation Policies from A Model Zoo for Time Series Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2409.06282)]
+- Wave-Mask/Mix: Exploring Wavelet-Based Augmentations for Time Series Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2408.10951)][[code](https://github.com/jafarbakhshaliyev/Wave-Augs)]
+- Beyond Data Scarcity: A Frequency-Driven Framework for Zero-Shot Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2411.15743)]
+- Adaptive sampling for probabilistic forecasting under distribution shift, NIPSW 2022. [[paper](https://arxiv.org/abs/2302.11870)]
 - Deep adaptive input normalization for time series forecasting, TNNLS 2019. [[paper](https://arxiv.org/abs/1902.07892)] [[code](https://github.com/passalis/dain)]
+- Extended Deep Adaptive Input Normalization for Preprocessing Time Series Data for Neural Networks, AISTATS 2024. [[paper](https://arxiv.org/abs/2310.14720)] [[code](https://github.com/marcusGH/edain_paper)]
+#### Post-processing
+- Calibration of time-series forecasting: Detecting and adapting context-driven distribution shift, KDD 2024. [[paper](https://arxiv.org/abs/2310.14838)] [[code](https://github.com/half111/calibration_cds)]
+- TimeInf: Time Series Data Contribution via Influence Functions, Arxiv 2024. [[paper](https://arxiv.org/abs/2407.15247)][[code](https://github.com/yzhang511/timeinf)]
+- Human in the Loop Adaptive Optimization for Improved Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2505.15354)]
+- Towards Reliable Time Series Forecasting under Future Uncertainty: Ambiguity and Novelty Rejection Mechanisms, Arxiv 2025. [[paper](https://arxiv.org/abs/2503.19656)]
+#### Feature enhancement
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+#### Training strategies
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+- , . [[paper]()][[code]()]
+
 - Reversible instance normalization for accurate time-series forecasting against distribution shift, ICLR 2021. [[paper](https://openreview.net/forum?id=cGDAkQo1C0p)] [[code](https://github.com/ts-kim/RevIN)]
 - GAS-Norm: Score-Driven Adaptive Normalization for Non-Stationary Time Series Forecasting in Deep Learning, CIKM 2024. [[paper](https://arxiv.org/abs/2410.03935)] [[code](https://github.com/edo-urettini/GAS_Norm)]
-- Extended Deep Adaptive Input Normalization for Preprocessing Time Series Data for Neural Networks, AISTATS 2024. [[paper](https://arxiv.org/abs/2310.14720)] [[code](https://github.com/marcusGH/edain_paper)]
 - Frequency Adaptive Normalization For Non-stationary Time Series Forecasting, NIPS 2024. [[paper](https://arxiv.org/abs/2409.20371)] [[code](https://github.com/wayne155/FAN)]
 - Shape and time distortion loss for training deep time series forecasting models, NIPS 2019. [[paper](https://arxiv.org/abs/1909.09020)] [[code](https://github.com/vincent-leguen/DILATE)]
 - Loss Shaping Constraints for Long-Term Time Series Forecasting, ICML 2024. [[paper](https://arxiv.org/abs/2402.09373)]
