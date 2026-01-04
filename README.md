@@ -246,20 +246,12 @@
 - SPAT: Sensitivity-based Multihead-attention Pruning on Time Series Forecasting Models, Arxiv 2025. [[paper](https://arxiv.org/abs/2505.08768)][[code](https://anonymous.4open.science/r/SPAT-6042)]
 - Unitnorm: Rethinking normalization for transformers in time series, Arxiv 2024. [[paper](https://arxiv.org/abs/2405.15903)][[code](https://anonymous.4open.science/r/UnitNorm-5B84)]
 #### Training strategies
-- , . [[paper]()][[code]()]
-- , . [[paper]()][[code]()]
-- , . [[paper]()][[code]()]
-- , . [[paper]()][[code]()]
-- , . [[paper]()][[code]()]
-
-
-
 - Shape and time distortion loss for training deep time series forecasting models, NIPS 2019. [[paper](https://arxiv.org/abs/1909.09020)] [[code](https://github.com/vincent-leguen/DILATE)]
 - Loss Shaping Constraints for Long-Term Time Series Forecasting, ICML 2024. [[paper](https://arxiv.org/abs/2402.09373)]
+- Modeling temporal dependencies within the target for long-term time series forecasting, TKDE 2025. [[paper](https://arxiv.org/abs/2406.04777)][[code]( https://github.com/XQ-edu/TDAlign)]
+- Patch-wise Structural Loss for Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2503.00877)][[code](https://github.com/Dilfiraa/PS_Loss)]
+- OLMA: One Loss for More Accurate Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2505.11567)][[code](https://github.com/Yuyun1011/OLMA-One-Loss-for-More-Accurate-Time-Series-Forecasting)]
+- Not All Frequencies Are Created Equal: Towards a Dynamic Fusion of Frequencies in Time-Series Forecasting, MM 2024. [[paper](https://arxiv.org/abs/2407.12415)]
+- Robust Time Series Forecasting with Non-Heavy-Tailed Gaussian Loss-Weighted Sampler, Arxiv 2024. [[paper](https://arxiv.org/abs/2406.13871)]
+- Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting, Arxiv 2025. [[paper](https://arxiv.org/abs/2502.14704)][[code](https://anonymous.4open.science/r/SCAM-BDD3)]
 - RobustTSF: Towards Theory and Design of Robust Time Series Forecasting with Anomalies, ICLR 2024. [[paper](https://openreview.net/forum?id=ltZ9ianMth)] [[code](https://github.com/haochenglouis/RobustTSF)]
-- Topological attention for time series forecasting, NIPS 2021. [[paper](https://arxiv.org/abs/2107.09031)] [[code](https://github.com/plus-rkwitt/TAN)]
-- Revitalizing Multivariate Time Series Forecasting: Learnable Decomposition with Inter-Series Dependencies and Intra-Series Variations Modeling, ICML 2024. [[paper](https://arxiv.org/abs/2402.12694)]
-- Rethinking Channel Dependence for Multivariate Time Series Forecasting: Learning from Leading Indicators, ICLR 2024. [[paper](https://openreview.net/forum?id=JiTVtCUOpS)] [[code](https://github.com/SJTU-Quant/LIFT)]
-- Channel-aware low-rank adaptation in time series forecasting, CIKM 2024. [[paper](https://arxiv.org/abs/2407.17246)] [[code](https://github.com/tongnie/C-LoRA)]
-- Rethinking the Power of Timestamps for Robust Time Series Forecasting: A Global-Local Fusion Perspective, NIPS 2024. [[paper](https://arxiv.org/abs/2409.18696)] [[code](https://github.com/ForestsKing/GLAFF)]
-- Calibration of time-series forecasting: Detecting and adapting context-driven distribution shift, KDD 2024. [[paper](https://arxiv.org/abs/2310.14838)] [[code](https://github.com/half111/calibration_cds)]
