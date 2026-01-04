@@ -179,7 +179,6 @@
 - Navigating Spatio-Temporal Heterogeneity: A Graph Transformer Approach for Traffic Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2408.10822)] [[code](https://github.com/jasonz5/STGormer)]
 - STGformer: Efficient Spatiotemporal Graph Transformer for Traffic Forecasting, Arxiv 2024. [[paper](https://arxiv.org/abs/2410.00385)] [[code](https://github.com/Dreamzz5/STGformer)]
 
-
 #### 📚 Generative Paradigm
 ##### GAN
 - Stock market prediction based on generative adversarial network, Procedia Comput. Sci 2019. [[paper](https://www.sciencedirect.com/science/article/pii/S1877050919302789)]
@@ -199,6 +198,7 @@
 ##### Diffusion models
 - Autoregressive denoising diffusion models for multivariate probabilistic time series forecasting, ICML 2021. [[paper](https://arxiv.org/abs/2101.12072)] [[code](https://github.com/zalandoresearch/pytorch-ts)]
 - Non-autoregressive conditional diffusion models for time series prediction, ICML 2023. [[paper](https://arxiv.org/abs/2306.05043)]
+- CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation, NIPS 2021. [paper](https://arxiv.org/abs/2107.03502)] [[code](https://github.com/ermongroup/csdi)]
 - Retrieval-Augmented Diffusion Models for Time Series Forecasting, NIPS 2024. [[paper](https://arxiv.org/abs/2410.18712)] [[code](https://arxiv.org/abs/2410.18712)]
 - Latent diffusion transformer for probabilistic time series forecasting, AAAI 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29085)]
 - Transformer-Modulated Diffusion Models for Probabilistic Multivariate Time Series Forecasting, ICLR 2024. [[paper](https://iclr.cc/virtual/2024/poster/17726)]
@@ -219,6 +219,14 @@
 
 
 ### 📜 Model-agnostic Framework
+#### Data preprocessing
+
+#### Post-processing
+    
+#### Feature enhancement
+
+#### Training strategies
+
 - Deep adaptive input normalization for time series forecasting, TNNLS 2019. [[paper](https://arxiv.org/abs/1902.07892)] [[code](https://github.com/passalis/dain)]
 - Reversible instance normalization for accurate time-series forecasting against distribution shift, ICLR 2021. [[paper](https://openreview.net/forum?id=cGDAkQo1C0p)] [[code](https://github.com/ts-kim/RevIN)]
 - GAS-Norm: Score-Driven Adaptive Normalization for Non-Stationary Time Series Forecasting in Deep Learning, CIKM 2024. [[paper](https://arxiv.org/abs/2410.03935)] [[code](https://github.com/edo-urettini/GAS_Norm)]
